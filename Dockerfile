@@ -1,4 +1,4 @@
-FROM python:3.9-alpine3.13
+FROM python:3.9
 LABEL maintainer="danicavuck"
 
 ENV PYTHONUNBUFFERED 1
@@ -16,10 +16,9 @@ RUN python -m venv /py && \
     if [ $DEV="true" ]; \
         then /py/bin/pip install -r /tmp/requirements.dev.txt ; \
     fi && \
-    rm -rf /tmp && \
+    rm -rf /tmp/* && \
     adduser \ 
         --disabled-password \ 
-        --no-create-home \ 
         django-user
 
 
