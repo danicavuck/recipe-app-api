@@ -15,7 +15,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/recipe-app-api.git
+   git clone https://github.com/danicavuck/recipe-app-api.git
    cd recipe-app-api
    ```
 
