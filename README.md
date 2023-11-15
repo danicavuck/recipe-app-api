@@ -1,4 +1,4 @@
-# Recipe API Project with Django, Docker, and GitHub Actions
+# Recipe API Project
 
 This is a Django project template for a Recipe API with Docker setup and GitHub Actions for continuous integration. The project provides a RESTful API for managing recipes and ingredients.
 
